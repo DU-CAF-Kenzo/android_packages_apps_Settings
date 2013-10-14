@@ -273,4 +273,9 @@
     <string name="adb_disabled">Откладка отключена</string>
 
     <string name="background_processes_settings_title">Фоновые процессы</string>
+
+    <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <string name="show_cpu_info">Показать информацию о процессоре</string>
+    <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+    <string name="show_cpu_info_summary">Экранное наложение, показывающее текущую информацию ЦП</string>
 </resources>
