@@ -20,15 +20,13 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
     android-support-v7-appcompat \
     android-support-v14-preference \
     jsr305 \
-    settings-logtags \
-    changeloglib
+    settings-logtags
 
 LOCAL_MODULE_TAGS := optional
 
 LOCAL_SRC_FILES := \
         $(call all-java-files-under, src) \
-        $(call all-java-files-under, ../DU-Tweaks/src) \
-        $(call all-java-files-under, ../../../external/changeloglib/ChangeLogLibrary/src/main/java)
+        $(call all-java-files-under, ../DU-Tweaks/src)
 
 LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
     frameworks/support/v7/preference/res \
@@ -37,7 +35,6 @@ LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
     frameworks/support/v7/recyclerview/res
 
 LOCAL_RESOURCE_DIR += packages/apps/DU-Tweaks/res
-LOCAL_RESOURCE_DIR += external/changeloglib/ChangeLogLibrary/src/main/res
 
 LOCAL_AAPT_FLAGS := --auto-add-overlay \
       --extra-packages com.dirtyunicorns.dutweaks \

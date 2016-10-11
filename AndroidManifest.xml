@@ -3272,14 +3272,6 @@
             </intent-filter>
         </activity>
 
-        <!-- Changelog -->
-        <activity android:name="com.dirtyunicorns.dutweaks.changelog.ChangelogActivity"
-                  android:label="@string/duchangelog_title" />
-        <activity android:name="com.dirtyunicorns.dutweaks.changelog.Weeklies"
-                  android:label="@string/duchangelog_weeklies" />
-        <activity android:name="com.dirtyunicorns.dutweaks.changelog.Official"
-                  android:label="@string/duchangelog_official" />
-
         <!-- Themes -->
         <activity android:name="Settings$ThemesActivity"
                 android:label="@string/themes_title"

@@ -32,6 +32,11 @@
     <string name="aboutdu">ROM information</string>
     <string name="aboutdu_summary">Information about our project, developers and devices</string>
 
+    <!-- DU Changelog -->
+    <string name="duchangelog_title">Changelog</string>
+    <string name="duchangelog_summary">Check to see what has changed</string>
+    <string name="changelog_error">Unable to load changelog</string>
+
     <!-- About phone screen -->
     <string name="build_date">Build date</string>
     <string name="build_date_default">2012-01-01-0000</string>

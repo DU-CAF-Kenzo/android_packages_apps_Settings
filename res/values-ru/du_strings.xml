@@ -24,6 +24,10 @@
     <!-- DU Updater -->
   <string name="updater_title">Обновления</string>
   <string name="updater_dashboard_summary">Проверить наличие обновления</string>
+    <!-- DU Changelog -->
+  <string name="duchangelog_title">Список изменений</string>
+  <string name="duchangelog_summary">Последние изменения в прошивке</string>
+  <string name="changelog_error">Не удается загрузить список изменений</string>
     <!-- DU About -->
   <string name="aboutdu">Информация о прошивке</string>
   <string name="aboutdu_summary">Информация о нашем проекте, разработчиках и устройствах</string>
