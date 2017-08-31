@@ -137,10 +137,6 @@
     <string name="notification_volume_option_title">Notification volume</string>
     <string name="ring_notification_volume_option_title">Ring and notification volume</string>
 
-    <!-- Themes -->
-    <string name="themes_title">Themes</string>
-    <string name="themes_dashboard_summary">Manage your themes</string>
-
     <!-- Cell Broadcast -->
     <string name="cell_broadcast_settings_custom">Cell Broadcast settings</string>
 
